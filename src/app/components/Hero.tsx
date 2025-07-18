@@ -1,6 +1,5 @@
 "use client"
 import { useEffect, useState } from "react"
-import { SocialStack } from "./ui/SocialStack"
 
 const words = ["Design", "Build"]
 
