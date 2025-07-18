@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Optimized animations with will-change for better performance */
 @keyframes fade-slide {
   0% {
     opacity: 0;
@@ -21,4 +22,33 @@
 
 .animate-fade-slide {
   animation: fade-slide 2s infinite;
+  will-change: transform, opacity;
 }
+
+/* Performance optimizations */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optimize video rendering */
+video {
+  will-change: auto;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-slide {
+    animation: none;
+  }
+  
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+

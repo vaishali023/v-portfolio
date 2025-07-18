@@ -14,7 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Vaishali | Portfolio",
-  description: "Porfolio built with Next.js and Tailwind",
+  description: "Frontend developer specializing in React, Next.js, and Web3 applications. View my projects and skills.",
+  keywords: "frontend developer, React, Next.js, Web3, blockchain, portfolio",
+  authors: [{ name: "Vaishali" }],
+  viewport: "width=device-width, initial-scale=1",
+  robots: "index, follow",
 };
 
 export default function RootLayout({
