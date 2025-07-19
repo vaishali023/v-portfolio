@@ -5,7 +5,7 @@ export const About = () => {
         <h2 className="text-3xl font-bold mb-6 tracking-tight">About Me</h2>
 
         <p className="text-lg text-gray-300 leading-relaxed">
-          I’m <span className="text-white font-semibold">Vaishali</span>, a creative thinker and interface designer passionate about crafting intuitive, aesthetically pleasing digital experiences. I love designing elegant user interfaces that are not just beautiful, but also purposeful and user-friendly.
+          I'm <span className="text-white font-semibold">Vaishali</span>, a creative thinker and interface designer passionate about crafting intuitive, aesthetically pleasing digital experiences. I love designing elegant user interfaces that are not just beautiful, but also purposeful and user-friendly.
         </p>
 
         <p className="mt-6 text-lg text-gray-300 leading-relaxed">
@@ -13,7 +13,7 @@ export const About = () => {
         </p>
 
         <p className="mt-6 text-gray-400 text-sm">
-          When I’m not designing, you’ll find me sketching, curating UI inspo, or enjoying a cold brew while dreaming up the next big thing ✨
+          When I'm not designing, you'll find me sketching, curating UI inspo, or enjoying a cold brew while dreaming up the next big thing ✨
         </p>
       </div>
     </section>
