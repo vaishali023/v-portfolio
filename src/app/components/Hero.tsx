@@ -15,7 +15,6 @@ export const Hero = () => {
 
   return (
     <section className="relative z-10 flex flex-col items-center justify-center h-screen text-center text-white px-6 overflow-hidden font-sans">
-      {/* Rotating text */}
       <div className="relative h-[80px] md:h-[100px] overflow-hidden flex items-center">
         <span
           key={words[index]}
@@ -26,7 +25,7 @@ export const Hero = () => {
       </div>
 
       <p className="mt-6 text-lg md:text-2xl text-gray-200 max-w-xl leading-relaxed font-light">
-        Hello, I'm <span className="font-semibold text-white">Vaishali</span> — a designer at heart who crafts beautiful, user-friendly interfaces that bridge creativity and functionality.
+        Hello, I&apos;m <span className="font-semibold text-white">Vaishali</span> — a designer at heart who crafts beautiful, user-friendly interfaces that bridge creativity and functionality.
       </p>
     </section>
   )
