@@ -5,7 +5,7 @@ import { SiLinkedin, SiGithub, SiX, SiBehance } from "react-icons/si";
 const socials = [
   {
     icon: <SiLinkedin />,
-    url: "https://linkedin.com/in/vaishali023",
+    url: "https://www.linkedin.com/in/vaishali-chaudhary-475843163/",
     label: "LinkedIn",
     hoverColor: "hover:bg-[#0e76a8]",
   },
